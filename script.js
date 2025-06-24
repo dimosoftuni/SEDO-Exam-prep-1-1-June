@@ -5,17 +5,17 @@ function add(a, b) {
 function subtract(a, b) {
   return a - b;
 }
-
+// test 1
 function multiply(a, b) {
   return a * b;
 }
-
+// test 2
 function calculateAndDisplay(fn) {
   const a = Number(document.getElementById('a').value);
   const b = Number(document.getElementById('b').value);
   document.getElementById('result').textContent = fn(a, b);
 }
-
+// test 3
 document.getElementById('btn-add')
   .addEventListener('click', () => calculateAndDisplay(add));
 
